@@ -97,6 +97,7 @@ GEM
     erubi (1.13.1)
     ffi (1.17.1-aarch64-linux-gnu)
     ffi (1.17.1-arm64-darwin)
+    ffi (1.17.1-x64-mingw-ucrt)
     ffi (1.17.1-x86_64-darwin)
     ffi (1.17.1-x86_64-linux-gnu)
     formatador (1.1.0)
@@ -173,6 +174,8 @@ GEM
     nokogiri (1.18.5-aarch64-linux-gnu)
       racc (~> 1.4)
     nokogiri (1.18.5-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.18.5-x64-mingw-ucrt)
       racc (~> 1.4)
     nokogiri (1.18.5-x86_64-darwin)
       racc (~> 1.4)
@@ -309,6 +312,7 @@ GEM
       sprockets (>= 3.0.0)
     sqlite3 (1.6.1-aarch64-linux)
     sqlite3 (1.6.1-arm64-darwin)
+    sqlite3 (1.6.1-x64-mingw-ucrt)
     sqlite3 (1.6.1-x86_64-darwin)
     sqlite3 (1.6.1-x86_64-linux)
     stimulus-rails (1.2.1)
@@ -323,6 +327,8 @@ GEM
       railties (>= 6.0.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
+    tzinfo-data (1.2026.2)
+      tzinfo (>= 1.0.0)
     unicode-display_width (3.1.5)
       unicode-emoji (~> 4.0, >= 4.0.4)
     unicode-emoji (4.0.4)
@@ -350,6 +356,7 @@ GEM
 PLATFORMS
   aarch64-linux
   arm64-darwin-21
+  x64-mingw-ucrt
   x86_64-darwin-21
   x86_64-linux
 
@@ -377,6 +384,7 @@ DEPENDENCIES
   sqlite3 (= 1.6.1)
   stimulus-rails (= 1.2.1)
   turbo-rails (= 1.4.0)
+  tzinfo-data
   web-console (= 4.2.0)
   webdrivers (= 5.2.0)
 
